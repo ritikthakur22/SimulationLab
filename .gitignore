@@ -1,4 +1,26 @@
-.venv/
+# Python bytecode and caches
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook checkpoints and caches
 .ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.jupyter/
+
+# Editor and OS artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
